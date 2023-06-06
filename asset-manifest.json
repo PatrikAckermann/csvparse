@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/patrikackermann.github.io/csvparse/static/css/main.ad10c0b6.css",
-    "main.js": "/patrikackermann.github.io/csvparse/static/js/main.40d8a39f.js",
-    "index.html": "/patrikackermann.github.io/csvparse/index.html",
-    "main.ad10c0b6.css.map": "/patrikackermann.github.io/csvparse/static/css/main.ad10c0b6.css.map",
-    "main.40d8a39f.js.map": "/patrikackermann.github.io/csvparse/static/js/main.40d8a39f.js.map"
+    "main.css": "/csvparse/static/css/main.ad10c0b6.css",
+    "main.js": "/csvparse/static/js/main.40d8a39f.js",
+    "index.html": "/csvparse/index.html",
+    "main.ad10c0b6.css.map": "/csvparse/static/css/main.ad10c0b6.css.map",
+    "main.40d8a39f.js.map": "/csvparse/static/js/main.40d8a39f.js.map"
   },
   "entrypoints": [
     "static/css/main.ad10c0b6.css",
