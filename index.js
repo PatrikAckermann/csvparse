@@ -10,6 +10,10 @@ function parseBool(value) {
     }
 }
 
+function reverseArray(array) { // Because some browsers don't support .toReversed()
+    return array.reverse()
+}
+
 function csvparse(csv, options={}, ignoreLines=[]) {
     var lines = csv.replaceAll("\r", "").split("\n") // Remove /r because not needed and then split the lines
     var result = []
@@ -90,12 +94,12 @@ function csvparse(csv, options={}, ignoreLines=[]) {
 
         // Convert each line to an object (  Example: [A, B, 1, 2] => {"A": {"B": [1, 2]}}  )
         var categories = []
-        result.toReversed().forEach((line, lineIndex) => {
+        reverseArray(result).forEach((line, lineIndex) => {
             lineIndex = result.length - 1 - lineIndex // Reverse index
             
             var newLine = {}
             var array = []
-            line.toReversed().forEach((entry, entryIndex) => {
+            reverseArray(line).forEach((entry, entryIndex) => {
                 entryIndex = line.length - 1 - entryIndex // Reverse index
 
                 if (!categoryIndexes.includes(entryIndex)) {

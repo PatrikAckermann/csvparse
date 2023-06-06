@@ -1,6 +1,6 @@
 {
   "name": "parse-csv-to-obj",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Convert CSVs to Javascript objects.",
   "repository": "https://github.com/PatrikAckermann/csvparse",
   "main": "index.js",
